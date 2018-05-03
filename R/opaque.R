@@ -7,6 +7,6 @@
 #' @export
 #' @examples
 #' opaque('red', 50)
-opaque <- function(color, opacity, max=255) {
-    rgb(t(col2rgb(color)), alpha=opacity, max=max)
+opaque <- function(color, opacity, max = 255) {
+    rgb(t(col2rgb(color)), alpha = opacity, max = max)
 }

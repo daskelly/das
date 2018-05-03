@@ -18,3 +18,10 @@ create("das")
 setwd('./das')
 document()
 ```
+
+Two easy methods to keep code tidy and well-formatted:
+```r
+formatR::tidy_dir("R")
+lintr::lint_package()
+```
+See [here](http://r-pkgs.had.co.nz/r.html).

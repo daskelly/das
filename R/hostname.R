@@ -4,5 +4,5 @@
 #' @examples
 #' hostname()
 hostname <- function() {
-    system("hostname", intern=TRUE)
+    system("hostname", intern = TRUE)
 }
