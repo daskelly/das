@@ -3,3 +3,4 @@
 export(hostname)
 export(opaque)
 export(peek)
+export(write_excel)

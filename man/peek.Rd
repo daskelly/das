@@ -4,19 +4,19 @@
 \alias{peek}
 \title{Peek at an object of any type}
 \usage{
-peek(obj, nrowToShow = 3, ncolToShow = 4)
+peek(obj, n_row_to_show = 3, n_col_to_show = 4)
 }
 \arguments{
 \item{obj}{The object you wish to explore}
 
-\item{nrowToShow}{Number of rows to show, defaults to 3}
+\item{n_row_to_show}{Number of rows to show, defaults to 3}
 
-\item{ncolToShow}{Number of cols to show, defaults to 4}
+\item{n_col_to_show}{Number of cols to show, defaults to 4}
 }
 \description{
 This is an ugly function that I have found useful for looking at
 objects of various types
 }
 \examples{
-peek(matrix(1:12, nrow=3), nrow=2, ncol=2)
+peek(matrix(1:12, nrow=3), n_row=2, n_col=2)
 }
